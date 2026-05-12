@@ -30,3 +30,5 @@ gzip
 5. Pull metadata file for each pairwise dataset - `create_metadata.py`
 6. One-hot encode the datasets - `convert_data_numpy.py`
 7. Train the model, and guage precision and accuracy - `RF_ML_model_ancient_status.ipynb`
+
+**Note** A `streamlit` app version of `RF_ML_model_ancient_status.ipynb` is available [here](https://github.com/DrATedder/RF_ancient_validation_streamlit).
