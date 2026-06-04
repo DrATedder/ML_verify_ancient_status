@@ -20,6 +20,8 @@ IPython.display
 Bio
 random
 gzip
+joblib
+multiprocessing
 ```
 ## Script run order
 
