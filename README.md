@@ -36,5 +36,5 @@ multiprocessing
 
 **Note**. A `streamlit` app version of `RF_ML_model_ancient_status.ipynb` is available [here](https://github.com/DrATedder/RF_ancient_validation_streamlit).
 
-**Note**. To run `aDNA_predictor.py` you need a `random_forest_combined.joblib` file (i.e. a trained model). This is generated as part of step 7, but I will also upload one into the `/prediction/` folder. It is important to realise though that the data you run through the predictor model must be the same type as that used to create the trained model (i.e. if you trained the model on simulated illumina MiSeq data with a 126 bp read length, your 'real' data should be 126 bp in length).
+**Note**. To run `aDNA_predictor.py` you need a `random_forest_combined.joblib` file (i.e. a trained model). This is generated as part of step 7, but I will also upload one into the `/prediction/` folder. It is important to realise though that the data you run through the predictor model must be the same type as that used to create the trained model (i.e. if you trained the model on simulated illumina HiSeq data with a 126 bp read length, your 'real' data should be 126 bp in length).
 
