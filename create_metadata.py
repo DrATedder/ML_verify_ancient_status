@@ -7,7 +7,7 @@ data_dict = {}
 last_set = ''
 
 for r1 in glob.glob(directory + '/dataset_*_R1.fasta'):
-    sample = os.path.basename(r1).strip('_R1.fasta')
+    sample = os.path.basename(r1).removesuffix('_R1.fasta')
     last_set = sample
     data_dict[sample] = []
     with open(r1, 'r') as f_in:
