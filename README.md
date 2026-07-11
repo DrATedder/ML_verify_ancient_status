@@ -33,6 +33,7 @@ multiprocessing
 6. One-hot encode the datasets - `convert_data_numpy.py`
 7. Train the model, and guage precision and accuracy - `RF_ML_model_ancient_status.ipynb`
 8. Predict status of 'real' ancient DNA with your trained model - `aDNA_predictor.py`
+9. Filter predictions based on confidence threshold - `filter_predictions.py`
 
 **Note**. A `streamlit` app version of `RF_ML_model_ancient_status.ipynb` is available [here](https://github.com/DrATedder/RF_ancient_validation_streamlit).
 
